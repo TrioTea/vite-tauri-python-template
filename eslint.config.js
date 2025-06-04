@@ -1,3 +1,6 @@
-import vuetify from 'eslint-config-vuetify'
+import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 
-export default vuetify()
+export default [
+  // Any other config imports go at the top
+  eslintPluginPrettierRecommended,
+];
